@@ -12,7 +12,8 @@ int main() {
     while (persons--) {
         cin >> personHeight;
 
-        if (personHeight > height) sum += 2;
+        if (personHeight > height) 
+            sum += 2;
         else sum++;
     }
 
