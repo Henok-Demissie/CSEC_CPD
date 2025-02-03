@@ -11,8 +11,10 @@ int main() {
     int antonCount = 0, danikCount = 0;
 
     for (char c : s) {
-        if (c == 'A') antonCount++;
-        else if (c == 'D') danikCount++;
+        if (c == 'A') 
+            antonCount++;
+        else if (c == 'D') 
+            danikCount++;
     }
 
     if (antonCount > danikCount) {
